@@ -13,6 +13,7 @@ const PORT = process.env.PORT|| 3001;
  
 
 app.use(bodyParser.json());
+
 app.use("/auth", authrouter)
 app.use(Doctorrouter)
  
