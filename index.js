@@ -15,7 +15,7 @@ app.use(cors());
 
 app.use(bodyParser.json());
 
-app.use("/auth", authrouter)
+app.use(authrouter)
 app.use(Doctorrouter)
  
 
